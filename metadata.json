@@ -1,0 +1,5 @@
+{
+  "name": "URL Redirect Tester & SEO Analyzer",
+  "description": "A modern, responsive tool to trace the full redirect chain of any URL. It displays status codes, intermediate URLs, and the final destination, all designed within a clean, SEO-focused diagnostic interface.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>URL Redirect Checker | Trace HTTP Redirects for SEO</title>
+    <meta name="title" content="URL Redirect Checker | Trace HTTP Redirects for SEO">
+    <meta name="description" content="Instantly trace the full redirect path of any URL with our free SEO tool. Analyze 301, 302, and other status codes, identify redirect chains and loops, and diagnose issues that impact your search rankings. Fast, accurate, and server-side.">
+    <meta name="keywords" content="redirect checker, url redirect tester, 301 redirect, 302 redirect, http redirect, seo tool, redirect chain, redirect path, status code checker, website migration">
+    <link rel="canonical" href="https://your-domain.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-domain.com/">
+    <meta property="og:title" content="URL Redirect Checker | Trace HTTP Redirects for SEO">
+    <meta property="og:description" content="A free, modern tool to instantly trace and analyze the entire redirect chain of any URL for SEO and debugging.">
+    <meta property="og:image" content="https://your-domain.com/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://your-domain.com/">
+    <meta property="twitter:title" content="URL Redirect Checker | Trace HTTP Redirects for SEO">
+    <meta property="twitter:description" content="A free, modern tool to instantly trace and analyze the entire redirect chain of any URL for SEO and debugging.">
+    <meta property="twitter:image" content="https://your-domain.com/og-image.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes move-stars {
+        from { transform: translateY(0px); }
+        to { transform: translateY(-2000px); }
+      }
+      .galaxy-bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #0c0a15;
+        z-index: -1;
+        overflow: hidden;
+      }
+      .stars {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200%;
+        height: 200%;
+        background-image: 
+          radial-gradient(1px 1px at 20px 30px, #eee, rgba(0,0,0,0)),
+          radial-gradient(1px 1px at 40px 70px, #fff, rgba(0,0,0,0)),
+          radial-gradient(1px 1px at 50px 160px, #ddd, rgba(0,0,0,0)),
+          radial-gradient(2px 2px at 90px 40px, #fff, rgba(0,0,0,0)),
+          radial-gradient(1px 1px at 130px 80px, #fff, rgba(0,0,0,0)),
+          radial-gradient(1px 1px at 160px 120px, #ddd, rgba(0,0,0,0));
+        background-repeat: repeat;
+        background-size: 200px 200px;
+        animation: move-stars 200s linear infinite;
+        opacity: 0;
+      }
+      .stars1 { animation-delay: 0s; opacity: 1; }
+      .stars2 { background-size: 300px 300px; animation-duration: 150s; animation-delay: -30s; opacity: 0.8;}
+      .stars3 { background-size: 500px 500px; animation-duration: 100s; animation-delay: -50s; opacity: 0.6;}
+      .stars4 { background-size: 700px 700px; animation-duration: 250s; animation-delay: -70s; opacity: 0.4;}
+
+      .nebula {
+        width: 100%;
+        height: 100%;
+        background-image: radial-gradient(ellipse at 70% 30%, rgba(100, 80, 200, 0.3), transparent 60%),
+                          radial-gradient(ellipse at 30% 80%, rgba(200, 80, 80, 0.3), transparent 60%),
+                          radial-gradient(ellipse at 50% 50%, rgba(80, 150, 200, 0.2), transparent 70%);
+        mix-blend-mode: screen;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
